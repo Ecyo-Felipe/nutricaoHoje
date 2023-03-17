@@ -19,8 +19,30 @@ a {
   text-decoration: none;
 }
 
+.littleButton a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: white;
+  background: #90c03e;
+  cursor: pointer;
+  
+}
+
+.littleButton a:hover {
+  color: white ;
+  background: #072506;
+
+}
+
 a:hover {
-  color: #469fdf;
+  color: #607a33;
   text-decoration: none;
 }
 
@@ -43,7 +65,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #90c03e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -57,7 +79,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: #082507;
   color: #fff;
 }
 
@@ -120,7 +142,6 @@ h6 {
   transition: all 0.5s;
   background: #fff;
   z-index: 997;
-  padding: 15px 0;
   border-bottom: 1px solid #e6f2fb;
 }
 
@@ -140,7 +161,7 @@ h6 {
 }
 
 #header .logo a {
-  color: #16507b;
+  color: #000000;
 }
 
 .mediaIcon {
@@ -149,8 +170,8 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 80px;
-  max-width: 200px;
+  height: 70px;
+  width: 100px;
 }
 
 @media (max-width: 992px) {
@@ -188,7 +209,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #16507b;
+  color: #000000;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -204,7 +225,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #2487ce;
+  color: #90c03e;
 }
 
 .navbar .getstarted,
@@ -451,7 +472,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  background: #072506;
 }
 
 #hero .icon-boxes {
@@ -477,7 +498,7 @@ h6 {
 }
 
 #hero .icon-box .title a {
-  color: #124265;
+  color: #000000;
   transition: 0.3s;
 }
 
@@ -502,7 +523,7 @@ h6 {
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: #90c03e;
 }
 
 @media (min-width: 1024px) {
@@ -556,7 +577,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  color: black;
 }
 
 .section-title p {
@@ -662,7 +683,7 @@ section {
 .about-video .content h3 {
   font-weight: 700;
   font-size: 24px;
-  color: #124265;
+  color: black;
 }
 
 .about-video .content ul {
@@ -931,7 +952,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #124265;
+  color: #000000;
   transition: ease-in-out 0.3s;
 }
 
@@ -1311,13 +1332,13 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #124265;
+  color: #90c03e;
   margin: 0 10px;
   display: inline-block;
 }
 
 .team .member .social a:hover {
-  color: #2487ce;
+  color: #000000;
 }
 
 .team .member .social i {
@@ -1334,7 +1355,8 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #124265;
+  color: #000000;
+  
 }
 
 .team .member .member-info span {
@@ -1531,7 +1553,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #90c03e;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1558,7 +1580,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #000000;
   float: left;
   width: 44px;
   height: 44px;
@@ -1575,14 +1597,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #124265;
+  color: #000000;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #217bbc;
+  color: #000000;
 }
 
 .contact .info .email,
@@ -1593,13 +1615,13 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #90c03e;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #90c03e;
 }
 
 .contact .php-email-form .form-group {
@@ -1784,7 +1806,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #124265;
+  color: #000000;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1885,7 +1907,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #90c03e;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1898,7 +1920,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
+  background: #000000;
   color: #fff;
   text-decoration: none;
 }
